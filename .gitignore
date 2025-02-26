@@ -1,0 +1,47 @@
+# Ignore virtual environments
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Python cache files
+*.cache
+*.egg-info/
+
+# Ignore environment variables & credentials
+.env
+*.env
+secrets.json
+
+# Ignore IDE/editor configurations
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore log files and database files
+logs/
+*.log
+*.sqlite3
+*.db
+
+# Ignore image files (optional, if you're storing receipts locally)
+static/sample_receipts/
+media/
+uploads/
+
+# Ignore compiled libraries
+*.so
+*.dll
+*.dylib
+
+# Ignore Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Ignore MacOS system files
+.DS_Store
+Thumbs.db
+
+# Ignore ngrok files (if used)
+ngrok.log
+ngrok.exe

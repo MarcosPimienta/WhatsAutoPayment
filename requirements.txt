@@ -1,0 +1,27 @@
+# Core Framework
+Flask==3.0.0  # Lightweight web framework
+
+# WhatsApp API
+twilio==9.0.0  # Twilio API for WhatsApp integration
+
+# OCR (Image Text Extraction)
+pytesseract==0.3.10  # Wrapper for Tesseract OCR
+opencv-python==4.8.0.76  # Image processing (optional for pre-processing)
+
+# Image Handling
+Pillow==10.0.1  # Image manipulation library
+
+# Database (SQLAlchemy for ORM)
+SQLAlchemy==2.0.25  # ORM for handling invoices/payments
+psycopg2-binary==2.9.9  # PostgreSQL adapter (replace with sqlite3 if needed)
+
+# Cloud Storage (Optional, for saving receipts)
+google-cloud-storage==2.14.0  # Google Drive/AWS S3 integration
+boto3==1.34.24  # AWS S3 SDK (if using S3 instead of Google Drive)
+
+# Environment Variables Handling
+python-dotenv==1.0.1  # Loads .env files for Twilio API keys
+
+# Utility Libraries
+requests==2.31.0  # HTTP requests handling
+rich==13.7.0  # Better CLI output (optional)
